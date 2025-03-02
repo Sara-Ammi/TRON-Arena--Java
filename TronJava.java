@@ -3,7 +3,7 @@ import java.util.Random;
 
 import javax.swing.*;
 
-public class ProjetP extends JPanel {
+public class TronJava extends JPanel {
     // ma grille 
     private int[][] grid;
     private int cellWidth;
@@ -18,7 +18,7 @@ public class ProjetP extends JPanel {
     private static  int fraise1 = 3;
 
     // constructeur 
-    public ProjetP (int[][] grid, int cellWidth, int cellHeight) {
+    public TronJava (int[][] grid, int cellWidth, int cellHeight) {
         this.grid = grid;
         this.cellWidth = cellWidth;
         this.cellHeight = cellHeight;
@@ -201,7 +201,7 @@ public class ProjetP extends JPanel {
         JFrame frame = new JFrame("TRON");
        
         frame.getContentPane().setLayout(new FlowLayout(FlowLayout.CENTER));
-        frame.getContentPane().add(new ProjetP(grid, 30 , 30 ));
+        frame.getContentPane().add(new TronJava(grid, 30 , 30 ));
         frame.pack(); // adapte l'affichage à la taille de la grille 
         frame.setVisible(true); // pour que l'afichage soit visisble tout au long du jeu 
           
