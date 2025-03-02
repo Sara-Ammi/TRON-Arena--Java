@@ -1,4 +1,4 @@
-# 🏍️ TRON-Arena--Java-Edition
+# 🏍️ TRON-Arena--Java
 
 ## 📌 Description  
 Ce projet est une adaptation du célèbre jeu **TRON**, où deux joueurs contrôlent des motos futuristes laissant des traînées lumineuses derrière elles. Le but est d'éviter les obstacles et de ne pas percuter les traînées adverses tout en essayant de piéger son adversaire.  
