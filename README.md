@@ -12,12 +12,6 @@
 - **Interface graphique** : Swing  
 - **Gestion du jeu** : Threading pour la fluidité des actions  
 
-## 📥 Installation & Exécution  
-1. **Cloner le projet**  
-   ```bash
-   git clone https://github.com/tonpseudo/nom-du-repo.git
-   cd nom-du-repo
-
 ## Compiler et exécuter
    ```bash
    javac TronJava.java
